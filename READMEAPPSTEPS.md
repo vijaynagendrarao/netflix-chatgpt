@@ -2,8 +2,20 @@
 - Create React APP
 - Configured Tailwind CSS
 - Built Header
+- Built routing
 - Built LoginForm
 - Built SignUpForm
+- Implemented form validation for SignIn/SignUp form using "useRef" Hook.
+- Firebase setUp
+- Deploying our app to production on firebase
+- Create SignUp User Account which stores user details in Firebase
+- Implement Sign-In user API (Firebase API call)
+- Setup Redux 
+- Implement Redux Store with User slice
+- Implemented sign-out
+- Update profile with username and photo image after sign up in Firebase
+- Create an account TMDB Website and then access token and api key
+- Fetch movies from TMDBAPI  - Now Playing API 
 
 # Features
 - Login/Sign Up
