@@ -1,13 +1,18 @@
 // import React from 'react';
 import Header from './Header';
 import useNowPlayingHooks from '../hooks/useNowPlayingMovies';
+import MainContainer from './MainContainer';
+import SecondaryContainer from './SecondaryContainer';
 
 const Browse = () => {
 
     useNowPlayingHooks();
 
     return (
-        <div><Header />
+        <div>
+            <Header />
+            <MainContainer />
+            <SecondaryContainer />
             {/* {
             MainContainer
                 - VideoBackground

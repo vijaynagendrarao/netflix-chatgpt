@@ -16,6 +16,10 @@
 - Update profile with username and photo image after sign up in Firebase
 - Create an account TMDB Website and then access token and api key
 - Fetch movies from TMDBAPI  - Now Playing API 
+- Planning for MainContainer and SecondaryContainer
+- Fetch data for trailer video
+- update store with trailervideo data
+- embeded the youtube video and make it autoplay and mute.
 
 # Features
 - Login/Sign Up
