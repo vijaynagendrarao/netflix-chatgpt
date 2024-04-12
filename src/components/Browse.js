@@ -1,19 +1,20 @@
 // import React from 'react';
-import Header from './Header';
-import useNowPlayingHooks from '../hooks/useNowPlayingMovies';
-import MainContainer from './MainContainer';
-import SecondaryContainer from './SecondaryContainer';
+import Header from "./Header";
+import useNowPlayingHooks from "../hooks/useNowPlayingMovies";
+import MainContainer from "./MainContainer";
+import SecondaryContainer from "./SecondaryContainer";
+import usePopularMovies from "../hooks/usePopularMovies";
 
 const Browse = () => {
+  useNowPlayingHooks();
+  usePopularMovies();
 
-    useNowPlayingHooks();
-
-    return (
-        <div>
-            <Header />
-            <MainContainer />
-            <SecondaryContainer />
-            {/* {
+  return (
+    <div>
+      <Header />
+      <MainContainer />
+      <SecondaryContainer />
+      {/* {
             MainContainer
                 - VideoBackground
                 - VideoTitle
@@ -21,8 +22,8 @@ const Browse = () => {
                 - MovieList * n
                     -MovieCards * n
         } */}
-        </div>
-    );
+    </div>
+  );
 };
 
-export default Browse
+export default Browse;
