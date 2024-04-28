@@ -20,6 +20,12 @@
 - Fetch data for trailer video
 - update store with trailervideo data
 - embeded the youtube video and make it autoplay and mute.
+- GPT Search Feature implementation
+- Create a GPT search bar
+- implemented multi-language support
+- Get Open AI Key
+- Integrated GPT APIs
+
 
 # Features
 - Login/Sign Up
