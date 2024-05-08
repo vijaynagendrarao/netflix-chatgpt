@@ -25,6 +25,14 @@
 - implemented multi-language support
 - Get Open AI Key
 - Integrated GPT APIs
+- Get Open AI ApI kEY
+- GPT search API call
+- Fetched gptmovies suggestions from TMDB
+- Created gptslice added data
+- reused movie list component to make movie suggesion container
+- Memoization
+- Addin .env file to gitignore
+- Made our site Responsive
 
 
 # Features
